@@ -18,7 +18,7 @@ Tokyo.R リモート開催時の抽選イベント用パッケージ
 CRAN に登録する予定はありません.
 
 ``` r
-remotes::install_package("Gedevan-Aleksizde/lotteRy")
+remotes::install_github("Gedevan-Aleksizde/lotteRy")
 ```
 
 CRAN に登録されていない `DTedit` パッケージに依存している.

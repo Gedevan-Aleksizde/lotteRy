@@ -30,7 +30,7 @@ knitr::include_graphics("demo.png")
 CRAN に登録する予定はありません.
 
 ``` {r, eval=F}
-remotes::install_package("Gedevan-Aleksizde/lotteRy")
+remotes::install_github("Gedevan-Aleksizde/lotteRy")
 ```
 
 CRAN に登録されていない `DTedit` パッケージに依存している. もし上記でうまくインストール出来ないなら, 以下で手動インストールする
