@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 Tokyo.R リモート開催時の抽選イベント用パッケージ
 
 ```{r echo=F}
-knitr::include_graphics("doc/demo.png")
+knitr::include_graphics("demo.png")
 ```
 
 ## インストール方法

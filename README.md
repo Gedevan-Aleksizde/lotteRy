@@ -11,7 +11,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 Tokyo.R リモート開催時の抽選イベント用パッケージ
 
-<img src="doc/demo.png" width="100%" />
+<img src="demo.png" width="100%" />
 
 ## インストール方法
 
