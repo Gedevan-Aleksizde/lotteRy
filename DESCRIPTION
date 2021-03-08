@@ -1,0 +1,30 @@
+Package: lotteRy
+Title: Lotterry for Tokyo.R
+Version: 0.0.0.9000
+Authors@R: person('Satoshi', 'Katagiri', email = 'katagiri.stsh@gmail.com', role = c('cre', 'aut'))
+Description: For the lottery sometimes held in online Tokyo.R events.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    shinythemes,
+    shinycssloaders,
+    jsonlite,
+    DTedit (>= 1.0.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+Remotes: 
+    jbryer/DTedit
+VignetteBuilder: knitr
