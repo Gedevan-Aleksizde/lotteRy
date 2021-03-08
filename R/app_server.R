@@ -45,7 +45,7 @@ app_server <- function(input, output, session) {
         show.update = F, show.insert = F, show.copy = F,
         callback.delete = delete_callback,
         datatable.options = list(
-          ordering = F, pageLength = input$n, searching = F, fillContainer = T,
+          ordering = F, pageLength = input$n, searching = F, fillContainer = T, dot = "t"
           columnDefs = list(list(className = 'dt-left', targets = "_all"))
         )
       )
