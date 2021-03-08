@@ -53,7 +53,7 @@ lotteRy::run_app()
 
 
 1. `NameList.csv` という名称で抽選対象となる名簿を保存する
-    ```
+    ```{r eval=F}
     nomenklatura <- data.frame(
     connpassID = 1:5,
     `氏名` = c("Rおじさん", "R おばさん", "Rおにいさん", "Rボーイ", "究極超人R")

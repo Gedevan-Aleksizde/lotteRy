@@ -41,9 +41,18 @@ lotteRy::run_app()
 実際に使用する場合は以下のような手順になります.
 
 1.  `NameList.csv` という名称で抽選対象となる名簿を保存する
-    `` nomenklatura <- data.frame(     connpassID = 1:5,     `氏名` = c("Rおじさん", "R おばさん", "Rおにいさん", "Rボーイ", "究極超人R")     )     write.csv(nomenklatura, "NameList.csv", row.names = F) ``
+
+    ``` r
+    nomenklatura <- data.frame(
+    connpassID = 1:5,
+    `氏名` = c("Rおじさん", "R おばさん", "Rおにいさん", "Rボーイ", "究極超人R")
+    )
+    write.csv(nomenklatura, "NameList.csv", row.names = F)
+    ```
+
     -   データフレームとして読み込めるものなら件数や列数は不問です
     -   ただし基本的に全ての列がそのまま表示されるので含める列に注意してください
+
 2.  上記 CSV を置いたディレクトリをカレントディレクトリとする
 
 -   他のフォルダからファイルを参照したい場合, R で
